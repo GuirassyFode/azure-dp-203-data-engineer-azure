@@ -26,6 +26,9 @@ PolyBase allows you to read/write data in external storage using T-SQL. This lab
 6. Complete the setup and wait for deployment to finish.
    ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/da9508f1-d61c-4d98-b87d-04b09d825cbb)
 
+   
+   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/07b2bae2-40bb-42bd-9893-2edc84c2c63c)
+
 
 ### Create a Container `taxidata` in the Data Lake Account
 

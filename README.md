@@ -1,114 +1,137 @@
-# This repository has information on the Microsoft Azure Data Engineer Certification DP-203 Hand on Labs:
+# Microsoft Azure Data Engineer Certification DP-203 Hands-On Labs
 
-Design and implement data storage (40-45%)
-Design and develop data processing (25-30%)
-Design and implement data security (10-15%)
-Monitor and optimize data storage and data processing (10-15%)
-# Design and implement data storage - Part 1
-Design a data storage structure
-design an Azure Data Lake solution
-recommend file types for storage
-recommend file types for analytical queries
-design for efficient querying
-design for data pruning
-design a folder structure that represents the levels of data transformation
-design a distribution strategy
-design a data archiving solution
-Design a partition strategy
-design a partition strategy for files
-design a partition strategy for analytical workloads
-design a partition strategy for efficiency/performance
-design a partition strategy for Azure Synapse Analytics
-identify when partitioning is needed in Azure Data Lake Storage Gen2
-# Design the serving layer
-design star schemas
-design slowly changing dimensions
-design a dimensional hierarchy
-design a solution for temporal data
-design for incremental loading
-design analytical stores
-design metastores in Azure Synapse Analytics and Azure Databricks
-# Implement physical data storage structures
-implement compression
-implement partitioning
-implement sharding
-implement different table geometries with Azure Synapse Analytics pools
-implement data redundancy
-implement distributions
-implement data archiving
-Implement logical data structures
-build a temporal data solution
-build a slowly changing dimension
-build a logical folder structure
-build external tables
-implement file and folder structures for efficient querying and data pruning
-# Implement the serving layer
-deliver data in a relational star schema
-deliver data in Parquet files
-maintain metadata
-implement a dimensional hierarchy
-Design and develop data processing - Part 2
-# Ingest and transform data
-transform data by using Apache Spark
-transform data by using Transact-SQL
-transform data by using Data Factory
-transform data by using Azure Synapse Pipelines
-transform data by using Stream Analytics
-cleanse data
-split data
-shred JSON
-encode and decode data
-configure error handling for the transformation
-normalize and denormalize values
-transform data by using Scala
-perform data exploratory analysis
-# Design and develop a batch processing solution
-develop batch processing solutions by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks
-create data pipelines
-design and implement incremental data loads
-design and develop slowly changing dimensions
-handle security and compliance requirements
-scale resources
-configure the batch size
-design and create tests for data pipelines
-integrate Jupyter/Python notebooks into a data pipeline
-handle duplicate data
-handle missing data
-handle late-arriving data
-upsert data
-regress to a previous state
-design and configure exception handling
-configure batch retention
-design a batch processing solution
-debug Spark jobs by using the Spark UI
-Design and develop a stream processing solution
-develop a stream processing solution by using Stream Analytics, Azure Databricks, and Azure Event Hubs
-process data by using Spark structured streaming
-monitor for performance and functional regressions
-design and create windowed aggregates
-handle schema drift
-process time series data
-process across partitions
-process within one partition
-configure checkpoints/watermarking during processing
-scale resources
-design and create tests for data pipelines
-optimize pipelines for analytical or transactional purposes
-handle interruptions
-design and configure exception handling
-upsert data
-replay archived stream data
-design a stream processing solution
-# Manage batches and pipelines
-trigger batches
-handle failed batch loads
-validate batch loads
-manage data pipelines in Data Factory/Synapse Pipelines
-schedule data pipelines in Data Factory/Synapse Pipelines
-implement version control for pipeline artifacts
-manage Spark jobs in a pipeline
-Key References
-# Microsoft Certified: Azure Data Engineer Associate
-Exam Guide
-Data Partitioning
-Azure Databricks
+This repository contains valuable information and resources for the Microsoft Azure Data Engineer Certification DP-203 Hands-On Labs. These labs cover various aspects of data engineering, including data storage, data processing, data security, and data optimization.
+
+## Certification Exam Topics
+
+The DP-203 certification exam is divided into several key areas of focus, which are covered in these hands-on labs:
+
+### 1. Design and Implement Data Storage (40-45%)
+
+#### Design and Implement Data Storage - Part 1
+
+- Design a data storage structure
+- Design an Azure Data Lake solution
+- Recommend file types for storage
+- Recommend file types for analytical queries
+- Design for efficient querying
+- Design for data pruning
+- Design a folder structure that represents the levels of data transformation
+- Design a distribution strategy
+- Design a data archiving solution
+- Design a partition strategy
+- Design a partition strategy for files
+- Design a partition strategy for analytical workloads
+- Design a partition strategy for efficiency/performance
+- Design a partition strategy for Azure Synapse Analytics
+- Identify when partitioning is needed in Azure Data Lake Storage Gen2
+
+#### Design the Serving Layer
+
+- Design star schemas
+- Design slowly changing dimensions
+- Design a dimensional hierarchy
+- Design a solution for temporal data
+- Design for incremental loading
+- Design analytical stores
+- Design metastores in Azure Synapse Analytics and Azure Databricks
+
+#### Implement Physical Data Storage Structures
+
+- Implement compression
+- Implement partitioning
+- Implement sharding
+- Implement different table geometries with Azure Synapse Analytics pools
+- Implement data redundancy
+- Implement distributions
+- Implement data archiving
+- Implement logical data structures
+- Build a temporal data solution
+- Build a slowly changing dimension
+- Build a logical folder structure
+- Build external tables
+- Implement file and folder structures for efficient querying and data pruning
+- Implement the serving layer
+- Deliver data in a relational star schema
+- Deliver data in Parquet files
+- Maintain metadata
+- Implement a dimensional hierarchy
+
+### 2. Design and Develop Data Processing (25-30%)
+
+#### Design and Develop Data Processing - Part 2
+
+#### Ingest and Transform Data
+
+- Transform data by using Apache Spark
+- Transform data by using Transact-SQL
+- Transform data by using Data Factory
+- Transform data by using Azure Synapse Pipelines
+- Transform data by using Stream Analytics
+- Cleanse data
+- Split data
+- Shred JSON
+- Encode and decode data
+- Configure error handling for the transformation
+- Normalize and denormalize values
+- Transform data by using Scala
+- Perform data exploratory analysis
+
+#### Design and Develop a Batch Processing Solution
+
+- Develop batch processing solutions by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks
+- Create data pipelines
+- Design and implement incremental data loads
+- Design and develop slowly changing dimensions
+- Handle security and compliance requirements
+- Scale resources
+- Configure the batch size
+- Design and create tests for data pipelines
+- Integrate Jupyter/Python notebooks into a data pipeline
+- Handle duplicate data
+- Handle missing data
+- Handle late-arriving data
+- Upsert data
+- Regress to a previous state
+- Design and configure exception handling
+- Configure batch retention
+- Design a batch processing solution
+- Debug Spark jobs by using the Spark UI
+
+#### Design and Develop a Stream Processing Solution
+
+- Develop a stream processing solution by using Stream Analytics, Azure Databricks, and Azure Event Hubs
+- Process data by using Spark structured streaming
+- Monitor for performance and functional regressions
+- Design and create windowed aggregates
+- Handle schema drift
+- Process time series data
+- Process across partitions
+- Process within one partition
+- Configure checkpoints/watermarking during processing
+- Scale resources
+- Design and create tests for data pipelines
+- Optimize pipelines for analytical or transactional purposes
+- Handle interruptions
+- Design and configure exception handling
+- Upsert data
+- Replay archived stream data
+- Design a stream processing solution
+
+### 3. Design and Implement Data Security (10-15%)
+
+- [Include relevant topics related to data security here]
+
+### 4. Monitor and Optimize Data Storage and Data Processing (10-15%)
+
+- [Include relevant topics related to monitoring and optimization here]
+
+## Key References
+
+- [Microsoft Certified: Azure Data Engineer Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-data-engineer)
+- [Exam Guide](https://learn.microsoft.com/en-us/certifications/exams/dp-203)
+- [Data Partitioning](https://docs.microsoft.com/en-us/azure/architecture/patterns/data-partitioning)
+- [Azure Databricks](https://azure.microsoft.com/en-us/services/databricks/)
+
+Feel free to explore the labs and resources in this repository to help you prepare for the DP-203 certification exam. Good luck with your studies!
+

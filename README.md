@@ -1,4 +1,4 @@
-# This repository has information on the Microsoft Azure Data Engineer Certification DP-203 This exam covers the following skills:
+# This repository has information on the Microsoft Azure Data Engineer Certification DP-203 Hand on Labs:
 
 Design and implement data storage (40-45%)
 Design and develop data processing (25-30%)

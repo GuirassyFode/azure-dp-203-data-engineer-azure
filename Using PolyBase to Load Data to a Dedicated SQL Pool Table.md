@@ -16,14 +16,16 @@ PolyBase allows you to read/write data in external storage using T-SQL. This lab
    
 4. Configure the workspace:
    - Resource group: Select the existing resource group.
-   - Workspace name: Enter "acgmssynapse."
+   - Workspace name, for mine : Enter "fodessynapse."
    - Region: Ensure "East US 2" is selected.
 
 5. Configure Data Lake Storage Gen2:
-   - Account name: Enter "acgmsstorage."
-   - File system name: Enter "synapsecontainer."
+   - Account name: Enter "fodestorage."
+   - File system name: Enter "fodefsn."
 
 6. Complete the setup and wait for deployment to finish.
+   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/da9508f1-d61c-4d98-b87d-04b09d825cbb)
+
 
 ### Create a Container `taxidata` in the Data Lake Account
 

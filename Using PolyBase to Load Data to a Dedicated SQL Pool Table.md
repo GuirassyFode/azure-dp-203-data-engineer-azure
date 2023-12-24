@@ -70,20 +70,28 @@ PolyBase allows you to read/write data in external storage using T-SQL. This lab
 
 5. Right-click on "TaxiRides.parquet" file, hover over "New SQL script," and select "Create external table."
 
-6. Select the target database:
+   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/15954b0b-11c0-4ce4-8c00-636b6f0fa532)
+
+
+7. Select the target database:
    - Select SQL pool: Choose "TaxiRidesWarehouse."
    - External table name: Enter "ExternalTaxiRides."
 
-7. Leave other settings at default and click "Open script."
+8. Leave other settings at default and click "Open script."
 
-8. Review the script and execute it.
+9. Review the script and execute it.
 
 ### Create Table in Dedicated SQL Pool Using CTAS
 
 Use the CTAS (CREATE TABLE AS SELECT) command to create a new table named TaxiRides. Replace `<External Table Name>` with the name of the external table you created in the previous objective:
 
+![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/ba28902a-db32-4e3d-b572-08ff50bb2629)
+
 ```sql
 -- Create table TaxiRides, using CTAS (Polybase)
+
+-- Create table TaxiRides, using CTAS (Polybase)
+
 
 CREATE TABLE TaxiRides
 WITH 
@@ -93,4 +101,14 @@ WITH
 ) 
 AS 
 SELECT * 
-FROM <External Table Name>		-- Replace name of external table
+FROM dbo.FodeExternalTaxiRides		-- Replace name of external table
+
+SELECT * FROM TaxiRides;
+![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/4dd6ca47-9e02-4ff1-ad79-194e8d35e0bd)
+
+
+
+
+
+
+

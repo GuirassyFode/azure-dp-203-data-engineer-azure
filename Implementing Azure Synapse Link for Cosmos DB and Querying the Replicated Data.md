@@ -18,9 +18,13 @@ This guide will walk you through the process of setting up Azure Synapse Link fo
 
 2. In the left-hand menu, under the "Data Explorer" section, select "Azure Synapse Link."
 
-3. Enable Synapse Link for the specific container(s) you want to replicate data from by toggling the switch next to each container.
+   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/e6fe34de-9f43-47c5-b8be-52564cc42d7b)
 
-4. After enabling Synapse Link, click on "Synapse Studio" (Azure Synapse Analytics) from the Azure Portal to open the Synapse Studio interface.
+
+4. Enable Synapse Link for the specific container(s) you want to replicate data from by toggling the switch next to each container.
+
+5. After enabling Synapse Link, click on "Synapse Studio" (Azure Synapse Analytics) from the Azure Portal to open the Synapse Studio interface.
+![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/ff7e3f47-2c5a-492b-8c4b-b0f823c0d07a)
 
 ## Step 2: Create External Tables
 
@@ -33,6 +37,11 @@ This guide will walk you through the process of setting up Azure Synapse Link fo
 4. Specify the table name, schema, and column mapping. Ensure that the schema matches the structure of your Cosmos DB container.
 
 5. Click "Create" to create the external table.
+   
+   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/56404fdb-b4a8-4047-973d-559fb8307613)
+6. Load the data
+  ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/1fbaf349-0c0c-4698-9e98-a8b97199cd49)
+
 
 ## Step 3: Query Replicated Data
 

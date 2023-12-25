@@ -43,6 +43,9 @@ This guide will walk you through the process of setting up Azure Synapse Link fo
 6. Load the data
   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/1fbaf349-0c0c-4698-9e98-a8b97199cd49)
 
+7. Data Loaded
+   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/c3bcb81a-05fb-4b1a-b2d6-a5e987d25b81)
+
 
 ## Step 3: Query Replicated Data
 

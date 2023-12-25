@@ -50,10 +50,47 @@ This guide will walk you through the process of setting up Azure Synapse Link fo
 ## Step 3: Query Replicated Data
 
 1. In Synapse Studio, go to the "Develop" section.
+   1.1 Deploy Sysnapse account
+  ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/2a117822-f334-4ce8-a29e-8a425dcc1f31)
+   1.2 Create Cosmos DB Nosql external table link
+   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/27221a17-f411-4dd7-87a1-ff73ae0ab5ef)
 
-2. Click on "SQL scripts" and create a new SQL script to query the replicated data.
 
-3. Write your SQL query to retrieve and analyze the data from the external table you created in the previous step. For example:
+
+
+3. Click on "SQL scripts" and create a new SQL script to query the replicated data.
+   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/ee6c9e36-e7ab-460c-b18b-dab6270e8351)
+
+
+5. Write your SQL query to retrieve and analyze the data from the external table you created in the previous step. For example:
+   ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/917d852a-a7e0-4176-8cbe-7a0468d784c1)
+
 
    ```sql
+
+   -- Check if the 'cosmosdb' credential exists
+IF NOT EXISTS (SELECT * FROM sys.credentials WHERE name = 'cosmosdb')
+BEGIN
+    -- If it doesn't exist, create the credential with the Azure Cosmos DB key
+    CREATE CREDENTIAL [cosmosdb]
+    WITH IDENTITY = 'SHARED ACCESS SIGNATURE',
+    SECRET = 'Key'; -- Replace with your actual Cosmos DB key
+
+    PRINT 'The credential for Azure Cosmos DB has been created.';
+END
+ELSE
+BEGIN
+    PRINT 'The credential for Azure Cosmos DB already exists.';
+END
+
+SELECT TOP 100 *
+FROM OPENROWSET(
+    PROVIDER = 'CosmosDB',
+    CONNECTION = 'Account=fodecosmosdb;Database=RidesDB',
+    OBJECT = 'RidesFeedback',
+    SERVER_CREDENTIAL = 'cosmosdb' -- Use the 'cosmosdb' credential
+) AS [RidesFeedback];
+
    SELECT * FROM your_external_table;
+
+![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/9c13f647-fc0e-49d5-9145-f2ec6a18ca19)

@@ -6,6 +6,8 @@ This guide will walk you through the process of setting up Azure Synapse Link fo
 
 - Azure Synapse Analytics workspace.
 - Azure Cosmos DB account.
+  ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/6f3cd171-8b29-4c50-ad4a-b5645866b6d0)
+
 
 ## Step 1: Set Up Azure Synapse Link for Cosmos DB
 

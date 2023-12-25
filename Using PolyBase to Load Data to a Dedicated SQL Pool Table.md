@@ -105,6 +105,8 @@ FROM dbo.FodeExternalTaxiRides		-- Replace name of external table
 
 SELECT * FROM TaxiRides;
 
+![Capture](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/8535de97-e4e7-42c6-9117-bea0dfa5f2d2)
+
 
 
 

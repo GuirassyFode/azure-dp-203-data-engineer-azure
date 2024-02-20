@@ -2,7 +2,8 @@
 
 This guide will walk you through the process of setting up Azure Synapse Link for Cosmos DB and querying the replicated data in Azure Synapse Analytics. This integration allows you to leverage the analytical capabilities of Azure Synapse for data stored in Cosmos DB.
 
-![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/70ebde1a-6500-44fb-a72e-d3e018aad2ec)
+![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/12e88e0a-9278-468e-8edf-0313c2b0f6f9)
+
 
 
 ## Prerequisites

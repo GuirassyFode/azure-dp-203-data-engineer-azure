@@ -72,7 +72,7 @@ Explore stream processing solutions:
 ---
 
 
-With Kusto this would be end gaol:
+With Kusto this would be end goal:
 ![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/602830e6-75f0-402a-b70b-774689eca3f3)
 
 

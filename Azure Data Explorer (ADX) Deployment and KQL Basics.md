@@ -5,6 +5,7 @@ This project guides you through the deployment of an Azure Data Explorer (ADX) c
 ## Introduction
 
 Azure Data Explorer is a fast, fully managed data analytics service for real-time analysis on large volumes of data streaming from applications, websites, IoT devices, and more. This project covers the fundamentals of setting up ADX, ingesting data, and querying that data with KQL.
+![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/d0fcfa4f-a037-47ce-84cf-4d7e2c06edf6)
 
 ## Prerequisites
 

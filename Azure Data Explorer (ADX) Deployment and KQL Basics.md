@@ -38,7 +38,8 @@ Use the Azure portal or Azure CLI to create a database in your ADX cluster:
 
 az kusto database create --cluster-name MyCluster --database-name MyDatabase --resource-group MyResourceGroup --soft-delete-period P365D --hot-cache-period P31D
 
-![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/96fe8a8f-5b85-40d0-b450-780911a598c2)
+![image](https://github.com/GuirassyFode/azure-dp-203-data-engineer-azure/assets/25976326/3ee53ebc-ab9e-4d8c-b12a-41bb082fdf7d)
+
 
 4. Ingesting Data
 This project includes sample data and scripts to ingest data into your ADX table. See the data_ingestion/ directory for details.

@@ -1,0 +1,9 @@
+{
+	"name": "fodedAzDevOpsLab",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ea7a8afd-b73d-4ae2-b2f4-991229adbc91",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}

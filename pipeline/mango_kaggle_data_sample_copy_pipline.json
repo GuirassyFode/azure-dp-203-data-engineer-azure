@@ -27,14 +27,17 @@
 						}
 					},
 					"sink": {
-						"type": "DelimitedTextSink",
+						"type": "ParquetSink",
 						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings"
+							"type": "AzureBlobFSWriteSettings",
+							"metadata": [
+								{
+									"value": ""
+								}
+							]
 						},
 						"formatSettings": {
-							"type": "DelimitedTextWriteSettings",
-							"quoteAllText": true,
-							"fileExtension": ".txt"
+							"type": "ParquetWriteSettings"
 						}
 					},
 					"enableStaging": false,
@@ -55,7 +58,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "manga_sales_data",
+						"referenceName": "Parquet1",
 						"type": "DatasetReference"
 					}
 				]
